@@ -24,3 +24,58 @@
     padding: 9px 25px;
     cursor: pointer;
 }
+
+.catg1, .catg2, .catg3 {   
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.catg1{
+    background-image: linear-gradient(90deg, #FF9C35, #FFD019);
+}
+
+.catg2{
+    background-image: linear-gradient(90deg,  #FF589B, #FF136F);
+}
+
+.catg3{
+    background-image: linear-gradient(90deg, #4289FF, #3F07F8);
+}
+
+.categories h1{
+    color: white;
+}
+
+.categories img{
+    width: 100px;
+}
+
+.card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgray;
+}
+
+.card-footer{
+    background-color: white;
+    border-top: none;
+}
+
+#subscribe{
+    height: 300px;
+}
+
+#subscribe h6{
+    color: gray;
+}
+
+#sub-btn{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 10px;
+}
+
+footer{
+    text-align: center;
+}
